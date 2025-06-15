@@ -35,21 +35,81 @@ body {
   gap: 20px;
 }
 
-.watch-btn,
+.watch-btn {
+  background: linear-gradient(145deg, #ffc226, #ff6b00);
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 74px;
+}
+
 .info-btn {
   padding: 12px 24px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 74px;
+  background-color: #ffffff;
+  color: #333;
 }
 
-.watch-btn {
-  background-color: #ff6b00;
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: #1a1a1a;
+  padding: 20px 0;
+}
+
+.main-nav a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.main-nav a.active {
+  color: #ff6b00;
+  text-decoration: underline;
+}
+
+#search {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  margin: 40px auto;
+}
+
+.search-input {
+  width: 360px;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  background-color: transparent;
   color: white;
 }
 
-.info-btn {
-  background-color: #ffffff;
-  color: #333;
+.search-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ffc226, #ff6b00);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
