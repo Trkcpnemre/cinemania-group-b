@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Website for the film searching" />
+
+    <link href="./favicon.svg" rel="icon" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/catalog.css" />
+  </head>
+
+  <body class="catalog-page-body">
+    <include src="../partials/header.html"></include>
+
+    <section class="second-section">
+      <include src="../partials/hero.html"></include>
+    </section>
+
+    <section class="catalog-pg-third-section">
+      <div class="main-container">
+        <include src="../partials/search.html"></include>
+        <include src="../partials/library-list.html"></include> 
+        <include src="../partials/pagination.html"></include>
+      </div>
+    </section>
+
+    <include src="../partials/footer.html"></include>
+
+    <section class="modal-windows">
+      <include src="../partials/modal-details.html"></include>
+      <include src="../partials/trailer-modal.html"></include>
+      </section>
+
+    <include src="../partials/scroll-up.html"></include>
+
+    <script src="../js/catalog.js" type="module"></script>
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
