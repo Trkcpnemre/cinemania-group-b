@@ -1,0 +1,168 @@
+.fot-month {
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #fff;
+  margin-left: 300px;
+}
+body {
+  background-color: #111111;
+}
+
+.fot-cn {
+  padding: 30px;
+  color: #fff;
+  margin: 0 auto;
+  padding-left: 0 16px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  max-width: 1211px;
+  height: 519px;
+}
+
+.fot-content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.fot-content img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.fot-vot {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 2px 4px;
+  font-weight: medium;
+  font-size: 14px;
+  line-height: auto;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #111111;
+  position: relative;
+  width: 95px;
+  left: 76px;
+  height: 18px;
+}
+.s-sl {
+  position: relative;
+  left: 77px;
+  color: white;
+}
+
+.fot-afs {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.fot-cont {
+  margin-left: 16px;
+}
+
+.fot-p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #b7b7b7;
+}
+
+.fot-s {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  margin-left: 58px;
+}
+
+.s-pop {
+  margin-left: 83px;
+}
+
+.s-gen {
+  margin-left: 109px;
+  color: white;
+}
+
+.fot-span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #f87719;
+}
+
+.span-about-h3 {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0 5px;
+  color: #b7b7b7;
+}
+
+.fot-about-p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+  max-width: 390px;
+  height: 160px;
+  color: #f8f8f8;
+  margin-top: 16px;
+}
+
+.footer-but {
+  background: linear-gradient(90deg, #ffa500, #ff4500);
+  border: none;
+  color: #111111;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  width: 155px;
+  height: 40px;
+}
+
+.footer-but:hover {
+  opacity: 0.9;
+}
+
+.fot-goit {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.span-last {
+  color: orange;
+  font-size: 25px;
+  display: inline-block;
+  animation: beat 1s ease-in-out infinite;
+  padding: 0 7px;
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15); /* yaklaşık +3px kadar büyütür */
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.fot-a {
+  color: gray;
+}
+
+.fot-last {
+  color: gray;
+}
