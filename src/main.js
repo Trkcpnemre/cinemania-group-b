@@ -4,7 +4,9 @@ import { loadMovies } from './js/catalog.js'
 
 
 
-
+document.getElementById('theme-toggle').addEventListener('click', () => {
+  document.body.classList.toggle('light-mode');
+});
 
 loadHTML("header", "./partials/header.html");
 document.addEventListener('DOMContentLoaded', async () => {
